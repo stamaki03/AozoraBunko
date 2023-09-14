@@ -18,6 +18,11 @@
 		BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */; };
 		BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */; };
 		BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C02AB2A8DE0004A47C /* MenuView.swift */; };
+		BFAE26C42AB2B5410004A47C /* AuthorIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C32AB2B5410004A47C /* AuthorIndexView.swift */; };
+		BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C52AB2B5520004A47C /* BookIndexView.swift */; };
+		BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */; };
+		BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */; };
+		BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
 		BFAE26C02AB2A8DE0004A47C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BFAE26C32AB2B5410004A47C /* AuthorIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndexView.swift; sourceTree = "<group>"; };
+		BFAE26C52AB2B5520004A47C /* BookIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookIndexView.swift; sourceTree = "<group>"; };
+		BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchView.swift; sourceTree = "<group>"; };
+		BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchView.swift; sourceTree = "<group>"; };
+		BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				BFAE268D2AB2A37C0004A47C /* AozoraBunkoApp.swift */,
+				BFAE26CB2AB2B7590004A47C /* Components */,
 				BFAE26B92AB2A5580004A47C /* Model */,
 				BFAE26B82AB2A54C0004A47C /* ViewModel */,
 				BFAE26B72AB2A5400004A47C /* View */,
@@ -142,7 +153,7 @@
 			children = (
 				BFAE268F2AB2A37C0004A47C /* SelectionView.swift */,
 				BFAE26BA2AB2A8AE0004A47C /* BookShelfView.swift */,
-				BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */,
+				BFAE26C22AB2B5170004A47C /* Search */,
 				BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */,
 				BFAE26C02AB2A8DE0004A47C /* MenuView.swift */,
 			);
@@ -161,6 +172,26 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BFAE26C22AB2B5170004A47C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */,
+				BFAE26C32AB2B5410004A47C /* AuthorIndexView.swift */,
+				BFAE26C52AB2B5520004A47C /* BookIndexView.swift */,
+				BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */,
+				BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BFAE26CB2AB2B7590004A47C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +326,14 @@
 			files = (
 				BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */,
 				BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */,
+				BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */,
+				BFAE26C42AB2B5410004A47C /* AuthorIndexView.swift in Sources */,
 				BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */,
+				BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */,
 				BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */,
+				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
+				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
