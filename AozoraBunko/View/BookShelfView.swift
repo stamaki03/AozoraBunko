@@ -10,6 +10,8 @@ import SwiftUI
 struct BookShelfView: View {
     var body: some View {
         Text("BookShelfView")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("bg"))
     }
 }
 

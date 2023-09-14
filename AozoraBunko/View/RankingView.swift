@@ -10,6 +10,8 @@ import SwiftUI
 struct RankingView: View {
     var body: some View {
         Text("RankingView")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("bg"))
     }
 }
 

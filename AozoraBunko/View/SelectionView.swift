@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct SelectionView: View {
+    
+    init() {
+        let appearance = UITabBarAppearance()
+        appearance.backgroundColor =  UIColor.white
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
         TabView {
             BookShelfView()

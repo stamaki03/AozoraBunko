@@ -10,6 +10,8 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         Text("MenuView")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("bg"))
     }
 }
 

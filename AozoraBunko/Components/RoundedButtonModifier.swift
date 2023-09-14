@@ -11,11 +11,7 @@ struct RoundedButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .frame(maxWidth: .infinity, maxHeight: 80)
-            .foregroundColor(.black)
-            .overlay(
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(Color.gray, lineWidth: 1)
-            )
+            .foregroundColor(.white)
             .padding()
     }
 }

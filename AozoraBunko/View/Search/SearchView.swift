@@ -15,20 +15,36 @@ struct SearchView: View {
         NavigationStack {
             VStack {
                 NavigationLink(destination: AuthorIndexView()) {
-                    Text("作家別検索")
-                        .modifier(RoundedButtonModifier())
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .modifier(RoundedButtonModifier())
+                        Text("作家別検索")
+                            .foregroundColor(.black)
+                    }
                 }
                 NavigationLink(destination: BookIndexView()) {
-                    Text("作品別検索")
-                        .modifier(RoundedButtonModifier())
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .modifier(RoundedButtonModifier())
+                        Text("作品別検索")
+                            .foregroundColor(.black)
+                    }
                 }
                 NavigationLink(destination: RandomAuthorSearchView()) {
-                    Text("ランダム作家別検索")
-                        .modifier(RoundedButtonModifier())
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .modifier(RoundedButtonModifier())
+                        Text("ランダム作家別検索")
+                            .foregroundColor(.black)
+                    }
                 }
                 NavigationLink(destination: RandomBookSearchView()) {
-                    Text("ランダム作品別検索")
-                        .modifier(RoundedButtonModifier())
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .modifier(RoundedButtonModifier())
+                        Text("ランダム作品別検索")
+                            .foregroundColor(.black)
+                    }
                 }
                 Spacer()
             }
@@ -37,6 +53,8 @@ struct SearchView: View {
                     Text("検索")
                 }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("bg"))
         }
     }
 }
