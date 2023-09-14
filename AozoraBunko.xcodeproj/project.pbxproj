@@ -23,6 +23,7 @@
 		BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */; };
 		BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */; };
 		BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */; };
+		BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchView.swift; sourceTree = "<group>"; };
 		BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchView.swift; sourceTree = "<group>"; };
 		BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
+		BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */,
+				BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
+				BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

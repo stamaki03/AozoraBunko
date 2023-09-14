@@ -19,6 +19,7 @@ struct SearchView: View {
                         RoundedRectangle(cornerRadius: 20)
                             .modifier(RoundedButtonModifier())
                         Text("作家別検索")
+                            .font(.title2)
                             .foregroundColor(.black)
                     }
                 }
@@ -27,6 +28,7 @@ struct SearchView: View {
                         RoundedRectangle(cornerRadius: 20)
                             .modifier(RoundedButtonModifier())
                         Text("作品別検索")
+                            .font(.title2)
                             .foregroundColor(.black)
                     }
                 }
@@ -35,6 +37,7 @@ struct SearchView: View {
                         RoundedRectangle(cornerRadius: 20)
                             .modifier(RoundedButtonModifier())
                         Text("ランダム作家別検索")
+                            .font(.title2)
                             .foregroundColor(.black)
                     }
                 }
@@ -43,6 +46,7 @@ struct SearchView: View {
                         RoundedRectangle(cornerRadius: 20)
                             .modifier(RoundedButtonModifier())
                         Text("ランダム作品別検索")
+                            .font(.title2)
                             .foregroundColor(.black)
                     }
                 }
@@ -54,7 +58,7 @@ struct SearchView: View {
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color("bg"))
+            .modifier(BackgroundColorModifier())
         }
     }
 }

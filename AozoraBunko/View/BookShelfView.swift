@@ -11,7 +11,11 @@ struct BookShelfView: View {
     var body: some View {
         Text("BookShelfView")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color("bg"))
+            .background(LinearGradient(
+                gradient: Gradient(colors: [Color("bg1"),Color("bg2")]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            ))
     }
 }
 
