@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE268D2AB2A37C0004A47C /* AozoraBunkoApp.swift */; };
-		BFAE26902AB2A37C0004A47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE268F2AB2A37C0004A47C /* ContentView.swift */; };
+		BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE268F2AB2A37C0004A47C /* SelectionView.swift */; };
 		BFAE26922AB2A37D0004A47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAE26912AB2A37D0004A47C /* Assets.xcassets */; };
 		BFAE26952AB2A37D0004A47C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAE26942AB2A37D0004A47C /* Preview Assets.xcassets */; };
 		BFAE269F2AB2A37D0004A47C /* AozoraBunkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE269E2AB2A37D0004A47C /* AozoraBunkoTests.swift */; };
 		BFAE26A92AB2A37D0004A47C /* AozoraBunkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26A82AB2A37D0004A47C /* AozoraBunkoUITests.swift */; };
 		BFAE26AB2AB2A37D0004A47C /* AozoraBunkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26AA2AB2A37D0004A47C /* AozoraBunkoUITestsLaunchTests.swift */; };
+		BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26BA2AB2A8AE0004A47C /* BookShelfView.swift */; };
+		BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */; };
+		BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */; };
+		BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C02AB2A8DE0004A47C /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		BFAE268A2AB2A37C0004A47C /* AozoraBunko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AozoraBunko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAE268D2AB2A37C0004A47C /* AozoraBunkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AozoraBunkoApp.swift; sourceTree = "<group>"; };
-		BFAE268F2AB2A37C0004A47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFAE268F2AB2A37C0004A47C /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 		BFAE26912AB2A37D0004A47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAE26942AB2A37D0004A47C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFAE269A2AB2A37D0004A47C /* AozoraBunkoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AozoraBunkoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		BFAE26A42AB2A37D0004A47C /* AozoraBunkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AozoraBunkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAE26A82AB2A37D0004A47C /* AozoraBunkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AozoraBunkoUITests.swift; sourceTree = "<group>"; };
 		BFAE26AA2AB2A37D0004A47C /* AozoraBunkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AozoraBunkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFAE26BA2AB2A8AE0004A47C /* BookShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfView.swift; sourceTree = "<group>"; };
+		BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		BFAE26C02AB2A8DE0004A47C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +140,11 @@
 		BFAE26B72AB2A5400004A47C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BFAE268F2AB2A37C0004A47C /* ContentView.swift */,
+				BFAE268F2AB2A37C0004A47C /* SelectionView.swift */,
+				BFAE26BA2AB2A8AE0004A47C /* BookShelfView.swift */,
+				BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */,
+				BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */,
+				BFAE26C02AB2A8DE0004A47C /* MenuView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAE26902AB2A37C0004A47C /* ContentView.swift in Sources */,
+				BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */,
+				BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */,
+				BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */,
+				BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */,
+				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

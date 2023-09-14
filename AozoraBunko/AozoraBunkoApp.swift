@@ -11,7 +11,7 @@ import SwiftUI
 struct AozoraBunkoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SelectionView()
         }
     }
 }
