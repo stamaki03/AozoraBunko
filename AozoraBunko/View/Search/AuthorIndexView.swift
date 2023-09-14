@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct AuthorIndexView: View {
+    @ObservedObject var authorIndexViewModel = AuthorIndexViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(authorIndexViewModel.authorIndex) { initial in
+                NavigationLink(destination: AuthorListView(url: initial.url)) {
+                    Text(initial.name)
+                }
+            }
+        }
+        .scrollContentBackground(.hidden)
+        .modifier(BackgroundColorModifier())
     }
 }
 

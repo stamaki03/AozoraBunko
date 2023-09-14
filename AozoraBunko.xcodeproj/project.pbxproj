@@ -24,6 +24,9 @@
 		BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */; };
 		BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */; };
 		BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */; };
+		BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */; };
+		BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */; };
+		BFAE26D52AB2F4E80004A47C /* AuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchView.swift; sourceTree = "<group>"; };
 		BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
 		BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorModifier.swift; sourceTree = "<group>"; };
+		BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndexViewModel.swift; sourceTree = "<group>"; };
+		BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndex.swift; sourceTree = "<group>"; };
+		BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 		BFAE26B82AB2A54C0004A47C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 		BFAE26B92AB2A5580004A47C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 				BFAE26C52AB2B5520004A47C /* BookIndexView.swift */,
 				BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */,
 				BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */,
+				BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -327,9 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAE26D52AB2F4E80004A47C /* AuthorListView.swift in Sources */,
 				BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */,
 				BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */,
 				BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */,
+				BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */,
 				BFAE26C42AB2B5410004A47C /* AuthorIndexView.swift in Sources */,
 				BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */,
 				BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */,
@@ -337,6 +348,7 @@
 				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
+				BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */,
 				BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
 			);

@@ -11,11 +11,7 @@ struct MenuView: View {
     var body: some View {
         Text("MenuView")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(LinearGradient(
-                gradient: Gradient(colors: [Color("bg1"),Color("bg2")]),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            ))
+            .modifier(BackgroundColorModifier())
     }
 }
 

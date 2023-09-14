@@ -9,8 +9,6 @@ import SwiftUI
 
 struct SearchView: View {
     
-    
-    
     var body: some View {
         NavigationStack {
             VStack {
@@ -54,10 +52,9 @@ struct SearchView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .principal){
-                    Text("検索")
+                    Text("")
                 }
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .modifier(BackgroundColorModifier())
         }
     }
