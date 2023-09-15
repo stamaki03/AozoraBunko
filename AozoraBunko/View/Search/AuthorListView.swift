@@ -10,8 +10,24 @@ import SwiftUI
 struct AuthorListView: View {
     let url: String
     
+    @ObservedObject var authorListViewModel = AuthorListViewModel()
+    
     var body: some View {
-        Text("`\(url)")
+        List {
+            ForEach(authorListViewModel.searchResults, id: \.self) { i in
+                NavigationLink(destination: AuthorsCardView(authorNo: authorListViewModel.authorNoArray[i])) {
+                    Text(authorListViewModel.authorArray[i])
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+            }
+        }
+        .onAppear {
+            authorListViewModel.getAuthorNameArray(url)
+            UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).backgroundColor = .white
+        }
+        .searchable(text: $authorListViewModel.searchText, placement: .navigationBarDrawer(displayMode: .always))
+        .scrollContentBackground(.hidden)
+        .modifier(BackgroundColorModifier())
     }
 }
 

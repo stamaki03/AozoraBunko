@@ -27,6 +27,17 @@
 		BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */; };
 		BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */; };
 		BFAE26D52AB2F4E80004A47C /* AuthorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */; };
+		BFAE26D72AB381FC0004A47C /* AuthorListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D62AB381FC0004A47C /* AuthorListViewModel.swift */; };
+		BFAE26D92AB382600004A47C /* WebScraping.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D82AB382600004A47C /* WebScraping.swift */; };
+		BFAE26DB2AB382950004A47C /* TextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26DA2AB382950004A47C /* TextParser.swift */; };
+		BFAE26DD2AB382D80004A47C /* AuthorsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26DC2AB382D80004A47C /* AuthorsCardView.swift */; };
+		BFAE26DF2AB383340004A47C /* AuthorCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26DE2AB383340004A47C /* AuthorCardViewModel.swift */; };
+		BFAE26E22AB383A20004A47C /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = BFAE26E12AB383A20004A47C /* Kanna */; };
+		BFAE26E42AB3841E0004A47C /* WebReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26E32AB3841E0004A47C /* WebReader.swift */; };
+		BFAE26E62AB3AC4A0004A47C /* BookRealmItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26E52AB3AC4A0004A47C /* BookRealmItem.swift */; };
+		BFAE26E82AB3AC5D0004A47C /* BookRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26E72AB3AC5D0004A47C /* BookRealmModel.swift */; };
+		BFAE26EB2AB3AD020004A47C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BFAE26EA2AB3AD020004A47C /* Realm */; };
+		BFAE26ED2AB3AD020004A47C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFAE26EC2AB3AD020004A47C /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +81,14 @@
 		BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndexViewModel.swift; sourceTree = "<group>"; };
 		BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndex.swift; sourceTree = "<group>"; };
 		BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListView.swift; sourceTree = "<group>"; };
+		BFAE26D62AB381FC0004A47C /* AuthorListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListViewModel.swift; sourceTree = "<group>"; };
+		BFAE26D82AB382600004A47C /* WebScraping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScraping.swift; sourceTree = "<group>"; };
+		BFAE26DA2AB382950004A47C /* TextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParser.swift; sourceTree = "<group>"; };
+		BFAE26DC2AB382D80004A47C /* AuthorsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsCardView.swift; sourceTree = "<group>"; };
+		BFAE26DE2AB383340004A47C /* AuthorCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorCardViewModel.swift; sourceTree = "<group>"; };
+		BFAE26E32AB3841E0004A47C /* WebReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebReader.swift; sourceTree = "<group>"; };
+		BFAE26E52AB3AC4A0004A47C /* BookRealmItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRealmItem.swift; sourceTree = "<group>"; };
+		BFAE26E72AB3AC5D0004A47C /* BookRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRealmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAE26ED2AB3AD020004A47C /* RealmSwift in Frameworks */,
+				BFAE26EB2AB3AD020004A47C /* Realm in Frameworks */,
+				BFAE26E22AB383A20004A47C /* Kanna in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */,
+				BFAE26D62AB381FC0004A47C /* AuthorListViewModel.swift */,
+				BFAE26DE2AB383340004A47C /* AuthorCardViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -180,6 +204,11 @@
 			isa = PBXGroup;
 			children = (
 				BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */,
+				BFAE26E52AB3AC4A0004A47C /* BookRealmItem.swift */,
+				BFAE26E72AB3AC5D0004A47C /* BookRealmModel.swift */,
+				BFAE26DA2AB382950004A47C /* TextParser.swift */,
+				BFAE26E32AB3841E0004A47C /* WebReader.swift */,
+				BFAE26D82AB382600004A47C /* WebScraping.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,10 +218,11 @@
 			children = (
 				BFAE26BC2AB2A8BC0004A47C /* SearchView.swift */,
 				BFAE26C32AB2B5410004A47C /* AuthorIndexView.swift */,
+				BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */,
+				BFAE26DC2AB382D80004A47C /* AuthorsCardView.swift */,
 				BFAE26C52AB2B5520004A47C /* BookIndexView.swift */,
 				BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */,
 				BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */,
-				BFAE26D42AB2F4E80004A47C /* AuthorListView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -222,6 +252,11 @@
 			dependencies = (
 			);
 			name = AozoraBunko;
+			packageProductDependencies = (
+				BFAE26E12AB383A20004A47C /* Kanna */,
+				BFAE26EA2AB3AD020004A47C /* Realm */,
+				BFAE26EC2AB3AD020004A47C /* RealmSwift */,
+			);
 			productName = AozoraBunko;
 			productReference = BFAE268A2AB2A37C0004A47C /* AozoraBunko.app */;
 			productType = "com.apple.product-type.application";
@@ -294,6 +329,10 @@
 				Base,
 			);
 			mainGroup = BFAE26812AB2A37C0004A47C;
+			packageReferences = (
+				BFAE26E02AB383A20004A47C /* XCRemoteSwiftPackageReference "Kanna" */,
+				BFAE26E92AB3AD020004A47C /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = BFAE268B2AB2A37C0004A47C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,20 +376,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAE26D52AB2F4E80004A47C /* AuthorListView.swift in Sources */,
+				BFAE26DD2AB382D80004A47C /* AuthorsCardView.swift in Sources */,
+				BFAE26DB2AB382950004A47C /* TextParser.swift in Sources */,
 				BFAE26BD2AB2A8BC0004A47C /* SearchView.swift in Sources */,
+				BFAE26E42AB3841E0004A47C /* WebReader.swift in Sources */,
 				BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */,
 				BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */,
+				BFAE26E82AB3AC5D0004A47C /* BookRealmModel.swift in Sources */,
+				BFAE26D92AB382600004A47C /* WebScraping.swift in Sources */,
 				BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */,
 				BFAE26C42AB2B5410004A47C /* AuthorIndexView.swift in Sources */,
+				BFAE26DF2AB383340004A47C /* AuthorCardViewModel.swift in Sources */,
 				BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */,
 				BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */,
 				BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */,
 				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
+				BFAE26E62AB3AC4A0004A47C /* BookRealmItem.swift in Sources */,
 				BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */,
 				BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
+				BFAE26D72AB381FC0004A47C /* AuthorListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +722,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFAE26E02AB383A20004A47C /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tid-kijyun/Kanna";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BFAE26E92AB3AD020004A47C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFAE26E12AB383A20004A47C /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFAE26E02AB383A20004A47C /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
+		BFAE26EA2AB3AD020004A47C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFAE26E92AB3AD020004A47C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BFAE26EC2AB3AD020004A47C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFAE26E92AB3AD020004A47C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFAE26822AB2A37C0004A47C /* Project object */;
 }
