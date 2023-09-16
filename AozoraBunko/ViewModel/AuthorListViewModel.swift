@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AuthorListViewModel: ObservableObject {
+final class AuthorListViewModel: ObservableObject {
     private var webScraping = WebScraping()
     private var textParser = TextParser()
     

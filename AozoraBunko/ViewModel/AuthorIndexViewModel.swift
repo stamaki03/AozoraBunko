@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AuthorIndexViewModel: ObservableObject {
+final class AuthorIndexViewModel: ObservableObject {
     var authorIndex: [AuthorIndexItem] {
         return AuthorIndex.authorIndex
     }

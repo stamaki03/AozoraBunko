@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AuthorCardViewModel: ObservableObject {
+final class AuthorCardViewModel: ObservableObject {
     private var webScraping = WebScraping()
     private var textParser = TextParser()
     private var bookRealmModel = BookRealmModel()
