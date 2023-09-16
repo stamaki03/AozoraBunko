@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct BookIndexView: View {
+    @ObservedObject private var bookIndexViewModel = BookIndexViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(bookIndexViewModel.bookIndex) { initial in
+                Section(header: Text(initial.header)) {
+                    ForEach(initial.lines) { lines in
+                        NavigationLink(destination: BookListView(booksInfo: lines)) {
+                            Text(lines.name)
+                        }
+                    }
+                }
+            }
+        }
+        .scrollContentBackground(.hidden)
+        .modifier(BackgroundColorModifier())
     }
 }
 
