@@ -15,7 +15,7 @@ struct SearchView: View {
                 NavigationLink(destination: AuthorIndexView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                            .modifier(RoundedButtonModifier())
+                            .modifier(RoundedButtonWithShadowModifier())
                         Text("作家別検索")
                             .font(.title2)
                             .foregroundColor(.black)
@@ -24,7 +24,7 @@ struct SearchView: View {
                 NavigationLink(destination: BookIndexView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                            .modifier(RoundedButtonModifier())
+                            .modifier(RoundedButtonWithShadowModifier())
                         Text("作品別検索")
                             .font(.title2)
                             .foregroundColor(.black)
@@ -33,7 +33,7 @@ struct SearchView: View {
                 NavigationLink(destination: RandomAuthorSearchView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                            .modifier(RoundedButtonModifier())
+                            .modifier(RoundedButtonWithShadowModifier())
                         Text("ランダム作家別検索")
                             .font(.title2)
                             .foregroundColor(.black)
@@ -42,7 +42,7 @@ struct SearchView: View {
                 NavigationLink(destination: RandomBookSearchView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
-                            .modifier(RoundedButtonModifier())
+                            .modifier(RoundedButtonWithShadowModifier())
                         Text("ランダム作品別検索")
                             .font(.title2)
                             .foregroundColor(.black)
