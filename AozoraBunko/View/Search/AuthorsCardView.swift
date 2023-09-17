@@ -10,7 +10,7 @@ import SwiftUI
 struct AuthorsCardView: View {
     let authorNo: String
     
-    @ObservedObject var authorCardViewModel = AuthorCardViewModel()
+    @ObservedObject private var authorCardViewModel = AuthorCardViewModel()
     
     var body: some View {
         VStack {

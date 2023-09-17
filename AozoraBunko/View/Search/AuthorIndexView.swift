@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AuthorIndexView: View {
-    @ObservedObject var authorIndexViewModel = AuthorIndexViewModel()
+    @ObservedObject private var authorIndexViewModel = AuthorIndexViewModel()
     
     var body: some View {
         List {

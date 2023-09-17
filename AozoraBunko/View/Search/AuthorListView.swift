@@ -10,7 +10,7 @@ import SwiftUI
 struct AuthorListView: View {
     let url: String
     
-    @ObservedObject var authorListViewModel = AuthorListViewModel()
+    @ObservedObject private var authorListViewModel = AuthorListViewModel()
     
     var body: some View {
         List {
