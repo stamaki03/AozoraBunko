@@ -22,7 +22,7 @@
 		BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C52AB2B5520004A47C /* BookIndexView.swift */; };
 		BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */; };
 		BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */; };
-		BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */; };
+		BFAE26CD2AB2B7B90004A47C /* RoundedButtonWithShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CC2AB2B7B90004A47C /* RoundedButtonWithShadowModifier.swift */; };
 		BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */; };
 		BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */; };
 		BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */; };
@@ -47,6 +47,8 @@
 		BFAE27022AB5C56C0004A47C /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27012AB5C56C0004A47C /* BookListView.swift */; };
 		BFAE27042AB5C5C60004A47C /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */; };
 		BFAE27062AB66F280004A47C /* RandomAuthorSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */; };
+		BFAE27082AB68B430004A47C /* RandomBookSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */; };
+		BFAE270A2AB69C750004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27092AB69C750004A47C /* RoundedButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +87,7 @@
 		BFAE26C52AB2B5520004A47C /* BookIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookIndexView.swift; sourceTree = "<group>"; };
 		BFAE26C72AB2B55E0004A47C /* RandomAuthorSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchView.swift; sourceTree = "<group>"; };
 		BFAE26C92AB2B56F0004A47C /* RandomBookSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchView.swift; sourceTree = "<group>"; };
-		BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
+		BFAE26CC2AB2B7B90004A47C /* RoundedButtonWithShadowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonWithShadowModifier.swift; sourceTree = "<group>"; };
 		BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorModifier.swift; sourceTree = "<group>"; };
 		BFAE26D02AB2F40D0004A47C /* AuthorIndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndexViewModel.swift; sourceTree = "<group>"; };
 		BFAE26D22AB2F4590004A47C /* AuthorIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorIndex.swift; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		BFAE27012AB5C56C0004A47C /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
 		BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchViewModel.swift; sourceTree = "<group>"; };
+		BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchViewModel.swift; sourceTree = "<group>"; };
+		BFAE27092AB69C750004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +253,8 @@
 		BFAE26CB2AB2B7590004A47C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				BFAE26CC2AB2B7B90004A47C /* RoundedButtonModifier.swift */,
+				BFAE27092AB69C750004A47C /* RoundedButtonModifier.swift */,
+				BFAE26CC2AB2B7B90004A47C /* RoundedButtonWithShadowModifier.swift */,
 				BFAE26CE2AB2E7A10004A47C /* BackgroundColorModifier.swift */,
 			);
 			path = Components;
@@ -283,6 +288,7 @@
 				BFAE26FD2AB5C4B10004A47C /* BookIndexViewModel.swift */,
 				BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */,
 				BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */,
+				BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -437,10 +443,11 @@
 				BFAE27022AB5C56C0004A47C /* BookListView.swift in Sources */,
 				BFAE27002AB5C4EB0004A47C /* BookIndex.swift in Sources */,
 				BFAE26C12AB2A8DE0004A47C /* MenuView.swift in Sources */,
-				BFAE26CD2AB2B7B90004A47C /* RoundedButtonModifier.swift in Sources */,
+				BFAE26CD2AB2B7B90004A47C /* RoundedButtonWithShadowModifier.swift in Sources */,
 				BFAE26E82AB3AC5D0004A47C /* BookRealmModel.swift in Sources */,
 				BFAE26D92AB382600004A47C /* WebScraping.swift in Sources */,
 				BFAE26D12AB2F40D0004A47C /* AuthorIndexViewModel.swift in Sources */,
+				BFAE27082AB68B430004A47C /* RandomBookSearchViewModel.swift in Sources */,
 				BFAE26C42AB2B5410004A47C /* AuthorIndexView.swift in Sources */,
 				BFAE26F22AB564690004A47C /* FinishedReadingBookView.swift in Sources */,
 				BFAE26DF2AB383340004A47C /* AuthorCardViewModel.swift in Sources */,
@@ -449,6 +456,7 @@
 				BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */,
 				BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */,
 				BFAE27062AB66F280004A47C /* RandomAuthorSearchViewModel.swift in Sources */,
+				BFAE270A2AB69C750004A47C /* RoundedButtonModifier.swift in Sources */,
 				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
