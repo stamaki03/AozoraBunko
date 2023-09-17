@@ -2,21 +2,34 @@
 //  RoundedButtonModifier.swift
 //  AozoraBunko
 //
-//  Created by Sho Tamaki on 2023/09/14.
+//  Created by Sho Tamaki on 2023/09/17.
 //
 
 import SwiftUI
 
 struct RoundedButtonModifier: ViewModifier {
+    
+    let title: String
+    
+//    init(title: String) {
+//        self.title = title
+//    }
+    
     func body(content: Content) -> some View {
         content
             .frame(maxWidth: .infinity, maxHeight: 80)
-            .foregroundColor(.white)
+            .foregroundColor(.white.opacity(0))
+            .background(.white)
+            .cornerRadius(20)
             .overlay(
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(Color.black, lineWidth: 0.5)
+                ZStack {
+                    Text(title)
+                        .foregroundColor(.black)
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color.black, lineWidth: 0.5)
+                    
+                }
             )
-            .shadow(color: .gray.opacity(0.5), radius: 5, x: 10, y: 10)
             .padding()
     }
 }
