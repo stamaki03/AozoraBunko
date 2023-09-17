@@ -16,20 +16,7 @@ struct RandomAuthorSearchView: View {
                 randomAuthorSearchViewModel.findAuthorRandomly()
             } label: {
                 RoundedRectangle(cornerRadius: 20)
-                    .frame(maxWidth: .infinity, maxHeight: 80)
-                    .foregroundColor(.white.opacity(0))
-                    .background(.white)
-                    .cornerRadius(20)
-                    .overlay(
-                        ZStack {
-                            Text("ランダム検索")
-                                .foregroundColor(.black)
-                            RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.black, lineWidth: 0.5)
-                            
-                        }
-                    )
-                    .padding()
+                    .modifier(RoundedButtonModifier(title: "ランダム検索"))
             }
             Text(randomAuthorSearchViewModel.authorName)
                 .font(.largeTitle)
