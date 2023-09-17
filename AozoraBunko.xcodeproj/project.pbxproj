@@ -49,6 +49,7 @@
 		BFAE27062AB66F280004A47C /* RandomAuthorSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */; };
 		BFAE27082AB68B430004A47C /* RandomBookSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */; };
 		BFAE270A2AB69C750004A47C /* RoundedButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27092AB69C750004A47C /* RoundedButtonModifier.swift */; };
+		BFAE270E2AB6AC5E0004A47C /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE270D2AB6AC5E0004A47C /* RankingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchViewModel.swift; sourceTree = "<group>"; };
 		BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBookSearchViewModel.swift; sourceTree = "<group>"; };
 		BFAE27092AB69C750004A47C /* RoundedButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonModifier.swift; sourceTree = "<group>"; };
+		BFAE270D2AB6AC5E0004A47C /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +208,7 @@
 				BFAE268F2AB2A37C0004A47C /* SelectionView.swift */,
 				BFAE26EE2AB562F90004A47C /* BookShelf */,
 				BFAE26C22AB2B5170004A47C /* Search */,
-				BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */,
+				BFAE270B2AB6ABCE0004A47C /* Ranking */,
 				BFAE26C02AB2A8DE0004A47C /* MenuView.swift */,
 			);
 			path = View;
@@ -217,6 +219,7 @@
 			children = (
 				BFAE26F32AB566830004A47C /* BookShelf */,
 				BFAE26F42AB5668C0004A47C /* Search */,
+				BFAE270C2AB6ABF00004A47C /* Ranking */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -291,6 +294,22 @@
 				BFAE27072AB68B430004A47C /* RandomBookSearchViewModel.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		BFAE270B2AB6ABCE0004A47C /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE26BE2AB2A8CC0004A47C /* RankingView.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		BFAE270C2AB6ABF00004A47C /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE270D2AB6AC5E0004A47C /* RankingViewModel.swift */,
+			);
+			path = Ranking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +481,7 @@
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
 				BFAE26FE2AB5C4B10004A47C /* BookIndexViewModel.swift in Sources */,
 				BFAE26E62AB3AC4A0004A47C /* BookRealmItem.swift in Sources */,
+				BFAE270E2AB6AC5E0004A47C /* RankingViewModel.swift in Sources */,
 				BFAE26D32AB2F4590004A47C /* AuthorIndex.swift in Sources */,
 				BFAE26CF2AB2E7A10004A47C /* BackgroundColorModifier.swift in Sources */,
 				BFAE268E2AB2A37C0004A47C /* AozoraBunkoApp.swift in Sources */,
