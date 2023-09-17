@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct RankingView: View {
-    @ObservedObject var rankingViewModel = RankingViewModel()
+    @ObservedObject private var rankingViewModel = RankingViewModel()
     
     init() {
         rankingViewModel.findRankingContents()
     }
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(0..<rankingViewModel.bookArray.count, id: \.self) { i in
                     HStack {
