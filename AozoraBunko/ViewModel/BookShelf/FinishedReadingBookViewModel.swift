@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class FinishedReadingBookViewModel: ObservableObject {
+final class FinishedReadingBookViewModel: ObservableObject {
     private var bookRealmModel = BookRealmModel()
     
     @Published var books: Results<FinishedReadingBookItem>
