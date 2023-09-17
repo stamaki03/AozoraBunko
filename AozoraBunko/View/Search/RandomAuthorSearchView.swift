@@ -8,16 +8,22 @@
 import SwiftUI
 
 struct RandomAuthorSearchView: View {
-    @ObservedObject var randomAuthorSearchViewModel = RandomAuthorSearchViewModel()
+    @ObservedObject private var randomAuthorSearchViewModel = RandomAuthorSearchViewModel()
+    @State private var randomButtonState = false
     
     var body: some View {
         VStack {
             Button {
+                randomButtonState = true
                 randomAuthorSearchViewModel.findAuthorRandomly()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                    randomButtonState = false
+                }
             } label: {
                 RoundedRectangle(cornerRadius: 20)
                     .modifier(RoundedButtonModifier(title: "ランダム検索"))
             }
+            .disabled(randomButtonState ? true : false)
             Text(randomAuthorSearchViewModel.authorName)
                 .font(.largeTitle)
                 .fontWeight(.heavy)
