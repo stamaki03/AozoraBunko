@@ -46,6 +46,7 @@
 		BFAE27002AB5C4EB0004A47C /* BookIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE26FF2AB5C4EB0004A47C /* BookIndex.swift */; };
 		BFAE27022AB5C56C0004A47C /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27012AB5C56C0004A47C /* BookListView.swift */; };
 		BFAE27042AB5C5C60004A47C /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */; };
+		BFAE27062AB66F280004A47C /* RandomAuthorSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		BFAE26FF2AB5C4EB0004A47C /* BookIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookIndex.swift; sourceTree = "<group>"; };
 		BFAE27012AB5C56C0004A47C /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
+		BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAuthorSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +282,7 @@
 				BFAE26DE2AB383340004A47C /* AuthorCardViewModel.swift */,
 				BFAE26FD2AB5C4B10004A47C /* BookIndexViewModel.swift */,
 				BFAE27032AB5C5C60004A47C /* BookListViewModel.swift */,
+				BFAE27052AB66F280004A47C /* RandomAuthorSearchViewModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				BFAE26BB2AB2A8AE0004A47C /* BookShelfView.swift in Sources */,
 				BFAE26C62AB2B5520004A47C /* BookIndexView.swift in Sources */,
 				BFAE26BF2AB2A8CC0004A47C /* RankingView.swift in Sources */,
+				BFAE27062AB66F280004A47C /* RandomAuthorSearchViewModel.swift in Sources */,
 				BFAE26C82AB2B55E0004A47C /* RandomAuthorSearchView.swift in Sources */,
 				BFAE26902AB2A37C0004A47C /* SelectionView.swift in Sources */,
 				BFAE26CA2AB2B56F0004A47C /* RandomBookSearchView.swift in Sources */,
