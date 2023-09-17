@@ -20,17 +20,18 @@ struct BookListView: View {
             ScrollView() {
                 LazyVGrid(columns: columns) {
                     ForEach((1...bookListViewModel.num), id: \.self) { i in
-                        RoundedRectangle(cornerRadius: 5)
-                            .fill(selectedNum == i ? .gray : .white)
-                            .frame(width: 50, height: 30)
-                            .overlay(
-                                Text("\(i)")
-                                    .foregroundColor(selectedNum == i ? .white : .black)
-                            )
-                            .onTapGesture {
-                                selectedNum = i
-                                bookListViewModel.getBookNameArray(index: booksInfo.index, number: String(i))
-                            }
+                        Button {
+                            selectedNum = i
+                            bookListViewModel.getBookNameArray(index: booksInfo.index, number: String(i))
+                        } label: {
+                            RoundedRectangle(cornerRadius: 5)
+                                .fill(selectedNum == i ? .gray : .white)
+                                .frame(width: 50, height: 30)
+                                .overlay(
+                                    Text("\(i)")
+                                        .foregroundColor(selectedNum == i ? .white : .black)
+                                )
+                        }
                     }
                 }
             }
